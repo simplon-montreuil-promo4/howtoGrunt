@@ -78,23 +78,21 @@ grunt.initConfig({
 		}
 		});
 		...
-	grunt.log.writeln('grunt running ...'+ arg, grunt.config.get('running.taskOwner));
+	grunt.log.writeln('grunt running ...'+ arg, grunt.config.get('running.taskOwner'));
 		
 ``` 
  + liaison avec un fichier :
  
- 
  ``` javascript
 grunt.initConfig({
 	running :{
-			taskOwner :'Roro',
-			src : 'js/somefile.js' 
+	taskOwner :'Roro',
+	src : 'js/somefile.js' 
 		}
 		});
 		...
 	grunt.log.writeln(grunt.config.get('running.src'));
-		
-``` 
+```
   
   
 	
