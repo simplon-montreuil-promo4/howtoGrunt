@@ -21,7 +21,7 @@ ___
 #### Installation Basique :
   On  a besoin de créer un fichier `gruntfile.js` comprenant :
   
-  ```
+  ``` javascript
   module.exports = function (grunt) {
      'use strict';
   
@@ -40,7 +40,7 @@ ___
 #### Création d'une tâche :
 On reprend la base de du fichier `gruntfile.js`:
 
-```
+``` javascript
   module.exports = function (grunt) {
      'use strict';
   
@@ -68,9 +68,10 @@ On reprend la base de du fichier `gruntfile.js`:
   ```
   a tester : `grunt running:test` 
 #### Configurer une/des tâches :
+
 + La base :
 
- ```
+``` javascript
 grunt.initConfig({
 	running :{
 			taskOwner :'Roro'
@@ -82,7 +83,8 @@ grunt.initConfig({
 ``` 
  + liaison avec un fichier :
  
- ```
+ 
+ ``` javascript
 grunt.initConfig({
 	running :{
 			taskOwner :'Roro',
